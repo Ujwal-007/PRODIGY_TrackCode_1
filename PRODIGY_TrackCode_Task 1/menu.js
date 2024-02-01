@@ -1,9 +1,8 @@
-const header = document.querySelector(".header");
 const header2 = document.querySelector("#header");
 console.log(header2);
-// window.addEventListener("scroll",function() {
-//     header.classList.toggle("sticky",window.scrollY > 80);
-// });
+window.addEventListener("scroll",function() {
+    header.classList.toggle("sticky",window.scrollY > 80);
+});
 
 let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
@@ -19,11 +18,11 @@ window.onscroll = () => {
 };
 
 window.addEventListener('scroll', () => {
-    // console.log(header2);
-    // if (window.scrollY > 80) {
-    //   header.style.backgroundColor = 'yellow'; // Change background color on scroll
-    // } else {
-    //   header.style.backgroundColor = 'transparent'; // Revert to original color when scrolled back to the top
-    // }
+    console.log(header2);
+    if (window.scrollY > 80) {
+      header2.style.backgroundColor = 'orange'; // Change background color on scroll
+    } else {
+      header2.style.backgroundColor = 'black'; // Revert to original color when scrolled back to the top
+    }
   });
 
