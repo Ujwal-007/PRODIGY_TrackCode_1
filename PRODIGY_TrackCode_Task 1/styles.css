@@ -25,10 +25,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(158, 68, 68);
-    padding: 14px 14%;
+    background: rgb(0, 0, 0);
+    padding: 10px 14%;
     transition: all .75s ease;
-    box-shadow: #ff7e0d 0px 1px 25px;
+    box-shadow: #0ddfff 0px 1px 25px;
 }
 .logo{
     display: flex;
